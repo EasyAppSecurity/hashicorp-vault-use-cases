@@ -1,0 +1,18 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# vault files
+**/vault/data/*
+**/vault/logs/*
+**/vault/policies/*
+*.seal
+
+# cert files
+*.pem
